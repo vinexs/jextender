@@ -4,14 +4,14 @@ This project depend on jQuery. It added some useful object prototype and extende
 ### Open a new windows with post data.
 ######Description
 ```
-void post(string url, object data[, string window])
+void post(string url, object data[, string name])
 ```
 ######Parameters
 | Param | Description |
 | --- | --- |
 | **url** | Website url to open |
 | **data** | Post parameters in object form. |
-| **window** | Window name of new windows, allow '_blank', '_self' or any other name |
+| **name** | Window name of new windows, could be '_blank', '_self' or any other name |
 
 
 
