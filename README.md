@@ -7,8 +7,8 @@ Description
 void post(string url, object data[, string window])
 ```
 Parameters
-|url|Website url to open|
-|data|post parameters in object form.|
-|window|Window name of new windows, allow '_blank', '_self' or any other name|
+url|Website url to open
+data|post parameters in object form.
+window|Window name of new windows, allow '_blank', '_self' or any other name
   
   
