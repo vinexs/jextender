@@ -3,7 +3,7 @@ This project depend on jQuery. It added some useful object prototype and extende
 
 ### Open a new window with post data.
 ######Description
-```
+```js
 void post(url, data[, name])
 ```
 ######Parameters
@@ -15,7 +15,7 @@ void post(url, data[, name])
 
 ### Use isset to check object has already check
 ######Description
-```
+```js
 bool isset(Object obj)
 ```
 ######Parameters
