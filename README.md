@@ -62,3 +62,46 @@ bool isEmpty()
 ```
 
 ### String Prototype
+```js
+int parseNumber()
+```
+```js
+bool parseBoolean()
+```
+```js
+object parseParam()
+```
+```js
+string trim(pos)
+```
+######Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***pos*** | char | 'L' will trim the space in the start of the string, otherwise will trim the end of the string. |
+```js
+bool isInteger()
+```
+```js
+bool isNumber()
+```
+```js
+bool isHtml()
+```
+```js
+bool isEmail()
+```
+```js
+bool isURL()
+```
+```js
+bool isSecureURL() 
+```
+
+
+
+
+
+
+
+
+
