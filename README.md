@@ -14,11 +14,10 @@ This project depend on jQuery. It added some useful object prototype and extende
 - Detect browser information.
 
 ### Open a new window with post data.
-######Description
 ```js
 void post(url, data[, name])
 ```
-######Parameters
+Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | **url** | String |Website url to open. |
@@ -26,12 +25,11 @@ void post(url, data[, name])
 | **name** | String | Window name of new windows, could be '_blank', '_self' or any other name. |
 
 ### Check object has already defined
-######Description
 ```js
 bool isset(Object obj)
-// isSet == isset
+// Alias: isSet
 ```
-######Parameters
+Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***obj*** | Any | Any variable, function, object wanted to check. |
@@ -40,7 +38,7 @@ bool isset(Object obj)
 ```js
 string numberFormat(afterDecimal, splitPoint)
 ```
-######Parameters
+Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***afterDecimal*** | int | Keep number which after decimal. |
@@ -49,7 +47,7 @@ string numberFormat(afterDecimal, splitPoint)
 ```js
 int round(length)
 ```
-######Parameters
+Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***length*** | int | Round the number after decimal. |
@@ -74,7 +72,7 @@ object parseParam()
 ```js
 string trim(pos)
 ```
-######Parameters
+Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***pos*** | char | 'L' will trim the space in the start of the string, otherwise will trim the end of the string. |
@@ -96,6 +94,79 @@ bool isURL()
 ```js
 bool isSecureURL() 
 ```
+```js
+bool leftPad(len, word) 
+```
+Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***len*** | int | The minimum string length of the result. |
+| ***word*** | string | The string will add to the left while not reach the minimum string length. |
+```js
+bool rightPad(len, word) 
+```
+Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***len*** | int | The minimum string length of the result. |
+| ***word*** | string | The string will add to the right while not reach the minimum string length. |
+```js
+string replaceAll(target, replacement);
+// Alias: supplant
+```
+Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***target*** | RegEx | Matched pattern in string. |
+| ***replacement*** | string | String to replace matched pattern. |
+```js
+string stripTags()
+```
+```js
+bool contains(str)
+// Alias: includes
+```
+Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***str*** | string | Check the string contain this part. |
+```js
+bool startsWith(str)
+```
+Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***str*** | string | Check the string is start with this part. |
+```js
+bool endsWith(str)
+```
+Parameters
+| Param | Type | Description |
+| --- | --- | --- |
+| ***str*** | string | Check the string is end with this part. |
+```js
+bool codeToStatement()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
