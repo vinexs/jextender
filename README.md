@@ -17,7 +17,6 @@ This project depend on jQuery. It added some useful object prototype and extende
 ```js
 void post(url, data[, name])
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | **url** | String |Website url to open. |
@@ -29,7 +28,6 @@ Parameters
 bool isset(Object obj)
 // Alias: isSet
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***obj*** | Any | Any variable, function, object wanted to check. |
@@ -38,7 +36,6 @@ Parameters
 ```js
 string numberFormat(afterDecimal, splitPoint)
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***afterDecimal*** | int | Keep number which after decimal. |
@@ -47,7 +44,6 @@ Parameters
 ```js
 int round(length)
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***length*** | int | Round the number after decimal. |
@@ -72,7 +68,6 @@ object parseParam()
 ```js
 string trim(pos)
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***pos*** | char | 'L' will trim the space in the start of the string, otherwise will trim the end of the string. |
@@ -97,7 +92,6 @@ bool isSecureURL()
 ```js
 bool leftPad(len, word) 
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***len*** | int | The minimum string length of the result. |
@@ -105,7 +99,6 @@ Parameters
 ```js
 bool rightPad(len, word) 
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***len*** | int | The minimum string length of the result. |
@@ -114,7 +107,6 @@ Parameters
 string replaceAll(target, replacement);
 // Alias: supplant
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***target*** | RegEx | Matched pattern in string. |
@@ -126,21 +118,18 @@ string stripTags()
 bool contains(str)
 // Alias: includes
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***str*** | string | Check the string contain this part. |
 ```js
 bool startsWith(str)
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***str*** | string | Check the string is start with this part. |
 ```js
 bool endsWith(str)
 ```
-Parameters
 | Param | Type | Description |
 | --- | --- | --- |
 | ***str*** | string | Check the string is end with this part. |
