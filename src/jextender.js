@@ -277,7 +277,7 @@ Date.prototype.format = function(format) {
 	});
 };
 Date.prototype.adjust = function(srt) {
-	if (code = srt.match(new RegExp('(\-*\d+)\s+(\w+)','i'))) {
+	if (code = srt.match(new RegExp('(\-*\\d+)(?:\\s+)?(\\w+)','i'))) {
 		var unit = code[2].toLowerCase();
 		var number = parseInt( code[1] );
 		var unitSet = {
