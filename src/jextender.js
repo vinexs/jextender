@@ -167,7 +167,7 @@ String.prototype.isEmail = function() {
 	return String(this.trim()).search(new RegExp('^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-_]+(\\.[a-z0-9-_]+)*(\\.[a-z]{2,})$', 'i')) != -1;
 };
 String.prototype.isURL = function() {
-	return String(this).search(new RegExp('^(?:https?:\\/\\/)?(?:[a-z0-9-]+\\.)*[a-z0-9-]{2,}(?:\\.[a-z0-9]{2,})+(?:\\/?|$)', 'i')) != -1
+	return String(this).search(new RegExp('^(https?):\\/\\/((?:[a-z0-9-\\.]+.)?[a-z0-9-]{2,}\\.[a-z]{2,}|[0-9\\.]+)\\/?', 'i')) != -1;
 };
 String.prototype.isSecureURL = function() {
 	return String(this).search(new RegExp('^(?:https:\\/\\/)?(?:[a-z0-9-]+\\.)*[a-z0-9-]{2,}(?:\\.[a-z0-9]{2,})+(?:\\/?|$)', 'i')) != -1
